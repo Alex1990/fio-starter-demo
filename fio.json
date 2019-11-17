@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "name": "name",
+      "type": "input",
+      "message": "Input your project name:"
+    },
+    {
+      "name": "test",
+      "type": "select",
+      "message": "Select test framework:",
+      "options": [
+          "jest",
+          "mocha"
+      ]
+    },
+    {
+      "name": "license",
+      "type": "select",
+      "message": "Select the license:",
+      "options": [
+          "MIT",
+          "BSD",
+          "GPL"
+      ]
+    }
+  ]
+}
